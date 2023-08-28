@@ -27,7 +27,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRETS}}
+        github-token: ${{secrets.SECRET}}
         script: |
           const issue = {
             owner: context.repo.owner,
