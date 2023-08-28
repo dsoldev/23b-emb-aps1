@@ -11,7 +11,7 @@ da dupla. **Vocês não devem fechar os issues, apenas a equipe de professores!*
 foi concluído! Isso gerará um PR no classroom que será avaliado pela equipe.
 
 ## Documentação
-
+a
 TODO: Aualizar pinos
 
 | Função  | PINO (ex: PA11) |
