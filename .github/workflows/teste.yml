@@ -1,9 +1,8 @@
 name: Create Issue on First Push
 
-on:
-  push:
-    branches:
-      - main
+run-name: Checking code quality
+
+on: [push]
 
 jobs:
   create_issue:
