@@ -1,33 +1,13 @@
-# 21a-emb-aps1
+# Create Issue on First Push
 
-Embarcados - APS 1 - Musical!
+## Instalation
 
-Para maiores informações acesse:
+Para criar um issues no repositorio eh nescessario criar um github secret com o nome **SECRET** e contendo uma chave PAT de um repositorio com direito a escrita.
 
-https://insper.github.io/ComputacaoEmbarcada/APS-1-Musical/
+## Funcionamento
 
-Issues serão abertos neste repositório para guiar o desenvolvimento
-da dupla. **Vocês não devem fechar os issues, apenas a equipe de professores!**, porém devem referenciar nos commits quando um issue 
-foi concluído! Isso gerará um PR no classroom que será avaliado pela equipe.
+Este action cria um issue nos repositorios dos alunos **APOS** o primeiro push.
 
-## Documentação
-a
-TODO: Aualizar pinos
+A action consiste de dois estagios, *Check for open issues* conta o numero de issues **abertos** salvando em uma variavel booleana (True se existem open-issues). 
 
-| Função  | PINO (ex: PA11) |
-|---------|-----------------|
-| BUZZER  |                 |
-| START   |                 |
-| SELEÇÃO |                 |
-
-### Imagem da montagem
-
-TODO: Inserir imagem do sistema montado
-
-### Vídeo do projeto
-
-TODO: Inserir link para vídeo do projeto funcionando
-
-### Músicas e Direitos autorais
-
-TODO: Listar músicas e dar crédio da onde saiu:
+O ssegundo estagio cria um novo issue, customize modificando *title* e *body*.
