@@ -1,8 +1,9 @@
 name: Create Issue on First Push
 
-run-name: Checking code quality
-
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   create_issue:
@@ -11,7 +12,7 @@ jobs:
     - name: Create Issue
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
+        github-token: ${{secrets.SECRET}}
         script: |
           const issue = {
             owner: context.repo.owner,
