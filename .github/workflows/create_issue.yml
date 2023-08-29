@@ -33,7 +33,8 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             title: '1 - Pino Buzzer',
-            body: 'tralala'
+            body: 'Definir e configurar pino que será usado para conectar o buzzer.
+                  - [ ] Atualizar `README.md` com definição do pino.'
           }
           github.issues.create(issue)
 
