@@ -25,7 +25,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -39,7 +39,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -53,7 +53,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -67,7 +67,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -81,7 +81,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -95,7 +95,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
@@ -109,7 +109,7 @@ jobs:
       if: steps.check_issues.outputs.has_issues == 'false'
       uses: actions/github-script@v3
       with:
-        github-token: ${{secrets.SECRET}}
+        github-token: ${{secrets.ISSUE_GENERATOR}}
         script: |
           const issue = {
             owner: context.repo.owner,
